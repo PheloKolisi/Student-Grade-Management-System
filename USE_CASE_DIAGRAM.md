@@ -3,36 +3,27 @@
 ## Use Case Diagram (Mermaid)
 
 ```mermaid
-%%{init: {'theme': 'default'}}%%
 flowchart TD
 
-actor Lecturer
-actor Student
-actor Admin
-actor Registrar
-actor IT_Support
-actor Developer
+Lecturer --> Add_Student
+Lecturer --> Add_Subject
+Lecturer --> Capture_Grades
+Lecturer --> Update_Grades
+Lecturer --> View_Grades
 
-Lecturer --> (Add Student)
-Lecturer --> (Add Subject)
-Lecturer --> (Capture Grades)
-Lecturer --> (Update Grades)
-Lecturer --> (View Grades)
+Student --> View_Grades
 
-Student --> (View Grades)
+Admin --> Generate_Reports
 
-Admin --> (Generate Reports)
+Registrar --> View_Records
 
-Registrar --> (View Records)
+IT_Support --> Maintain_System
 
-IT_Support --> (Maintain System)
+Developer --> Update_System
 
-Developer --> (Update System)
-
-(Capture Grades) --> (Validate Marks) : <<include>>
-(View Grades) --> (Retrieve Records) : <<include>>
+Capture_Grades --> Validate_Marks
+View_Grades --> Retrieve_Records
 ```
-
 ---
 
 ## Explanation
