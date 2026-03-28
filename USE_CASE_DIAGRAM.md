@@ -4,7 +4,7 @@
 
 ```mermaid
 %%{init: {'theme': 'default'}}%%
-usecaseDiagram
+flowchart TD
 
 actor Lecturer
 actor Student
