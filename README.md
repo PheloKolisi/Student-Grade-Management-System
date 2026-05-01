@@ -77,7 +77,9 @@ This project can be executed using any Java environment or online platforms such
 The `Main.java` file demonstrates the functionality of all implemented patterns.
 
 ---
+## Project History
 
+- [Changelog](CHANGELOG.md)
 ## Key Features
 
 - Object-Oriented Design
