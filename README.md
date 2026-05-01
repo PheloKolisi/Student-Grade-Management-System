@@ -31,3 +31,56 @@ The system operates within the education domain and is intended for use by lectu
 * Java
 * MySQL
 * JDBC
+
+## Assignment 10 – Implementation
+
+### Overview
+This project implements a **Student Grade Management System** using Java and applies object-oriented design principles and creational design patterns.
+
+---
+
+## Project Structure
+
+- `src/` → Core system classes (Student, Grade, Subject, etc.)
+- `creational_patterns/` → Implementation of creational design patterns
+- `tests/` → Basic test cases
+- `Main.java` → Demonstrates system execution
+
+---
+
+## Creational Design Patterns Implemented
+
+### 1. Simple Factory
+Used to create different types of students (e.g., Undergraduate, Postgraduate) without exposing instantiation logic.
+
+### 2. Factory Method
+Used to create reports through a common interface, allowing flexibility in report generation.
+
+### 3. Abstract Factory
+Used to create related objects such as Student and Lecturer through a single factory.
+
+### 4. Builder Pattern
+Used to construct complex Student objects step-by-step.
+
+### 5. Prototype Pattern
+Used to clone existing student objects efficiently.
+
+### 6. Singleton Pattern
+Used to ensure only one instance of the database connection exists.
+
+---
+
+## Running the Project
+
+This project can be executed using any Java environment or online platforms such as Replit.
+
+The `Main.java` file demonstrates the functionality of all implemented patterns.
+
+---
+
+## Key Features
+
+- Object-Oriented Design
+- Clean separation of concerns
+- Use of multiple design patterns
+- Modular and maintainable code structure
